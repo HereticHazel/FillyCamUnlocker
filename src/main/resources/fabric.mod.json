@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fcunlock",
+  "version": "${version}",
+
+  "name": "Fillycam Unlocker",
+  "description": "Removes the restriction in MineLP on toggling fillycam in survival multiplayer",
+  "authors": [
+    "HereticHazel"
+  ],
+  "contact": {
+    "homepage": "https://tpow2.com",
+    "sources": "https://github.com/HereticHazel/FillyCamUnlocker"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/fcunlock/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "fcunlock.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.16.5",
+    "java": ">=17",
+    "minelp": ">=4.2.1-1.16.5"
+  }
+}
